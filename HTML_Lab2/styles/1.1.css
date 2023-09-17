@@ -1,0 +1,31 @@
+body {font-family: Arial;}
+h1 {
+    font-size: 32pt;
+    text-align: center;
+}
+h1 strong{color: red;}
+p {
+    font-size: 14pt !important;
+    text-align: justify;
+}
+
+.picture {text-align: center;}
+.picture img{width: 25%;}
+
+.special {
+    color: #FF0000;
+    font-family: "Monotype Corsiva";
+}
+p.greeting {font-size: 24pt;}
+
+
+.btn {
+    border-radius: 5px;
+    font-family: Arial, Helvetica, serif;
+    font-size: .8em;
+}
+.delete {background-color: red;}
+.add {background-color: green;}
+.edit {background-color: gray;}
+
+
