@@ -7,3 +7,8 @@ table.price thead th {
     color: white;
     background-color: grey;
 }
+
+tfoot th {
+    text-align: right;
+    font-style: italic;
+}
