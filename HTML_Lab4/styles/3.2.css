@@ -1,0 +1,14 @@
+table.price th, table.price td {
+    border: grey thin solid;
+    padding: 4px;
+}
+
+table.price thead th {
+    color: white;
+    background-color: grey;
+}
+
+tfoot th {
+    text-align: right;
+    font-style: italic;
+}
