@@ -18,13 +18,13 @@
         <p><img src="images/Темпура.png"></p>
     </header>
 
-    <nav>
-        <div><a href="index.html">Главная</a></div>
-        <div><a href="catalogosn.html">Горячие блюда</a></div>
-        <div><a href="katalogisushi.html">Суши</a></div>
-        <div><a href="non-alcohol.html">Безалкогольные напитки</a></div>
-        <div><a href="pricelist.html">Прайс-лист</a></div>
-    </nav>
+<!--    <nav>-->
+<!--        <div><a href="index.html">Главная</a></div>-->
+<!--        <div><a href="catalogosn.html">Горячие блюда</a></div>-->
+<!--        <div><a href="katalogisushi.html">Суши</a></div>-->
+<!--        <div><a href="non-alcohol.html">Безалкогольные напитки</a></div>-->
+<!--        <div><a href="pricelist.html">Прайс-лист</a></div>-->
+<!--    </nav>-->
 
     <main>
         <table>
@@ -56,6 +56,28 @@
                 <tr><th colspan="2">Всего 11 наименований</th><th></th></tr>
             </tfoot>
         </table>
+
+        <h2>Заказ столиков</h2>
+        <form action="mailto:order@yokogama.ru" method="post" enctype="text/plain">
+            <p><label for="name">Как к вам обращаться?</label><br>
+            <input type="text" name="name" id="name" required></p>
+
+            <p><label for="phone">По какому телефону вам перезвонить?</label><br>
+            <input type="text" name="phone" id="phone" required></p>
+
+            <p><label for="time">На какое время желаете заказать столик?</label><br>
+            <input type="time" name="time" id="time" required></p>
+
+
+            <p><label for="cnt">На сколько человек заказывается столик?</label><br>
+                <input type="radio" name="cnt" id="cnt" value="1">1&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="cnt" value="2">2&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="cnt" value="more">3 и более</p>
+
+            <p><input type="checkbox" name="children" value="*">Среди клиентов будут дети</p>
+
+            <p><input type="submit">Отправить</p>
+        </form>
     </main>
     <footer>
         <p>Ждем вас!</p>

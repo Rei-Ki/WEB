@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Суши-бар Йокогама. Горячие блюда, суши, роллы, напитки">
+    <meta name="keywords" content="суши-бар, Йокогама, список роллов, Филадельфия, Калифорния, Унаги, Темпура,
+     Нигири, Сяке, Эби нигири, Унаги нигири, Авокадо, Лимонад, Мохито, Газированная вода с фруктами">
+    <meta name="author" content="Асламин Владислав">
+    <meta name="generator" content="PyCharm">
+
+    <title>Йокогама: суши-бар</title>
+    <link href="styles/3.2.css" rel="stylesheet" type="text/css">
+    <link href="styles/3.1.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+        <h1>Суши-бар <em>&laquo;Йокогама&raquo;</em></h1>
+        <p><img src="images/Темпура.png"></p>
+    </header>
+
+<!--    <nav>-->
+<!--        <div><a href="index.html">Главная</a></div>-->
+<!--        <div><a href="catalogosn.html">Горячие блюда</a></div>-->
+<!--        <div><a href="katalogisushi.html">Суши</a></div>-->
+<!--        <div><a href="non-alcohol.html">Безалкогольные напитки</a></div>-->
+<!--        <div><a href="pricelist.html">Прайс-лист</a></div>-->
+<!--    </nav>-->
+
+    <main>
+        <h2>Заказ еды на вынос</h2>
+        <form action="mailto:order@yokogama.ru" method="post" enctype="text/plain">
+            <p><label for="dishes">Что желаете заказать?</label><br>
+                <select name="dishes" id="dishes" size="6" multiple>
+                    <optgroup label="Горячие блюда">
+                        <option value="unagi">Фудзилли с кальмаром</option>
+                        <option value="hamachi">Том Ям</option>
+                        <option value="hamachi">Гёдза</option>
+                    </optgroup>
+                    <optgroup label="Суши">
+                        <option value="chukka">Суши с копченым лососем</option>
+                        <option value="maguro">Суши с королевской креветкой</option>
+                        <option value="tobiko">Суши с угрем</option>
+                    </optgroup>
+                    <optgroup label="Безалкогольные напитки">
+                        <option value="makijusi">Макидзуси</option>
+                        <option value="aojiru">Аоджиру</option>
+                        <option value="macha">Матча</option>
+                    </optgroup>
+                </select></p>
+
+            <p><label for="phone">По какому телефону вам перезвонить?</label><br>
+            <input type="text" name="phone" id="phone" required></p>
+
+            <p>Выберите на сколько вам понравились наши блюда?<br>
+            <input type="range" min="1" max="10" value="8"></p>
+
+            <fieldset>
+                <legend>Имя и фамилия</legend>
+                <p>Имя<br><input type="text" name="name1"></p>
+                <p>Фамилия<br><input type="text" name="name2"></p>
+            </fieldset>
+
+            <p><input type="submit">Отправить</p>
+        </form>
+    </main>
+    <footer>
+        <p>Ждем вас!</p>
+        <address>Наш адрес: ул. Мельникайте, 70.</address>
+        <p>&copy;Студенты кафедры &laquo;бизнес-информатики и математики&raquo;.<br>
+        Все права защищены</p>
+    </footer>
+</body>
+</html>
