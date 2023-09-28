@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Images maps</title>
+</head>
+<body bgcolor="#f5deb3">
+    <center>
+        <img src="images/button1.jpg" usemap="#panel" border="0"
+             alt="Панель управления" title="Панель управления">
+    </center>
+    <map name="panel">
+        <area href="green.html"  shape="rect" coords="15, 15, 82, 82"
+            alt="Зеленая кнопка" title="Зеленая кнопка">
+        <area href="yellow.html"  shape="poly" coords="148, 15, 185, 82, 110, 82"
+            alt="Желтая кнопка" title="Желтая кнопка">
+        <area href="red.html"  shape="circle" coords="250, 50, 33"
+              alt="Красная кнопка" title="Красная кнопка">
+    </map>
+
+    <center>
+        <img src="images/button2.jpg" usemap="#panel1" border="0"
+             alt="Панель управления" width="300" height="100">
+    </center>
+    <map name="panel1">
+        <area href="blue.html"  shape="circle" coords="206, 50, 33" title="Синяя кнопка">
+        <area href="blue.html"  shape="rect" coords="80, 17, 206, 83" title="Синяя кнопка">
+    </map>
+
+    <center>
+        <img src="images/button3.jpg" usemap="#panel2" border="0"
+             alt="Панель управления" width="150" height="150">
+    </center>
+    <map name="panel2">
+        <area nohref shape="circle" coords="76, 74, 35" title="Дырявая кнопка">
+        <area href="hole.html"  shape="rect" coords="25, 22, 126, 124" title="Дырявая кнопка">
+    </map>
+</body>
+</html>
