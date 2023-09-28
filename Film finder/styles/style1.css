@@ -1,0 +1,44 @@
+border-style {
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+div.menu {
+  text-align: center;
+  background-color: blanchedalmond;
+  padding: 3px;
+
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+div.menu li {
+  display: inline;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+
+div.main {
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.film_list {
+  max-height: 400px;
+  overflow-y: scroll;
+}
+
+
+
+div.film_block {
+  width: 30%;
+}
+div.cards_list {
+  width: 70%;
+  background-color: blanchedalmond;
+}
+
