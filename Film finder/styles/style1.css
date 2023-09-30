@@ -1,6 +1,22 @@
+.card img {
+  float: left;
+  margin-right: 10px;
+  /* сделать чтобы изображение не вылезало за края дива */
+  max-height: 20%;
+  max-width: 20%;
+  border-radius: 6%;
+}
+
 border-style {
   border: 1px solid black;
   border-radius: 15px;
+}
+
+div.separator{
+  width: 75%;
+  height: 1px;
+  background-color: gray;
+  margin: auto;
 }
 
 div.menu {
@@ -39,6 +55,17 @@ div.film_block {
 }
 div.cards_list {
   width: 70%;
+}
+
+
+div.card {
   background-color: blanchedalmond;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+
+  border: 1px solid black;
+  border-radius: 15px;
+  overflow: auto;
 }
 
