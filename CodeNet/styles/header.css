@@ -1,0 +1,28 @@
+* { padding: 0; margin: 0; }
+body {
+    overflow: hidden;
+    font-size: var(--text-font);
+}
+
+
+#header {
+    float: left;
+    height: 27px;
+    width: 100vw;
+
+    color: var(--dark-text-color);
+    background-color: var(--dark-color);
+}
+
+.header-text {
+    float: left;
+    line-height: 27px;
+    margin-left: 50%;
+}
+
+.window {
+    line-height: 27px;
+
+    margin-right: 5px;
+    text-align: right;
+}

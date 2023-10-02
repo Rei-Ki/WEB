@@ -1,0 +1,25 @@
+
+#main {
+    height: 100vh;
+    width: 100vw;
+
+    text-align: center;
+    color: var(--dark-text-color);
+    background-color: var(--dark-light-color);
+}
+
+.left-side {
+    padding: 10px;
+    float: left;
+    height: 100vh;
+    width: 250px;
+
+    border-right: 4px solid var(--dark-color);
+}
+
+.graph-side {
+    padding: 10px;
+    height: 100vh;
+    width: 100%;
+}
+
