@@ -2,32 +2,32 @@
 
 @font-face {
     font-family: "PTSans";
-    src: url('fonts/PTSansRegular.woff2') format('woff2'),
-    url('fonts/PTSansRegular.woff') format('woff');
+    src: url('../fonts/PTSansRegular.woff2') format('woff2'),
+    url('../fonts/PTSansRegular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "PTSans";
-    src: url('fonts/PTSansItalic.woff2') format('woff2'),
-    url('fonts/PTSansItalic.woff') format('woff');
+    src: url('../fonts/PTSansItalic.woff2') format('woff2'),
+    url('../fonts/PTSansItalic.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
     font-family: "PTSans";
-    src: url('fonts/PTSansBold.woff2') format('woff2'),
-    url('fonts/PTSansBold.woff') format('woff');
+    src: url('../fonts/PTSansBold.woff2') format('woff2'),
+    url('../fonts/PTSansBold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: "PTSans";
-    src: url('fonts/PTSansBoldItalic.woff2') format('woff2'),
-    url('fonts/PTSansBoldItalic.woff') format('woff');
+    src: url('../fonts/PTSansBoldItalic.woff2') format('woff2'),
+    url('../fonts/PTSansBoldItalic.woff') format('woff');
     font-weight: bold;
     font-style: italic;
 }
@@ -76,7 +76,7 @@ table {
 html {
     font-family: PTSans, Arial, sans-serif;
     font-size: 62.5%;
-    background: rgb(225,238,253) url(images/bg_page.png) repeat-x;
+    background: rgb(225,238,253) url(../images/bg_page.png) repeat-x;
 }
 
 .main {
@@ -84,7 +84,7 @@ html {
     margin: 0 auto;
     padding: 0 10px;
     border: 4px solid white;
-    background: transparent url(images/bg_banner1.jpg) no-repeat;
+    background: transparent url(../images/bg_banner1.jpg) no-repeat;
 }
 
 .main h1 {

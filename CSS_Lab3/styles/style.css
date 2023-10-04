@@ -54,7 +54,7 @@ body {
     color: #B1967C;
     font-family: "Palatino Linotype", Baskerville, serif;
     padding-top: 115;
-    background: #CDE6FF url(images/pg_page.png) repeat-x;
+    background: #CDE6FF url(../images/bg_page.png) repeat-x;
     max-width: 800px;
     margin: 0 auto;
 }
@@ -75,7 +75,7 @@ h2 {
     color: #E8A064;
     border-bottom: 2px white solid;
     padding: 0 0 2px 80px;
-    background: url(images/bullet_flower.png) no-repeat;
+    background: url(../images/bullet_flower.png) no-repeat;
 }
 
 .main p {

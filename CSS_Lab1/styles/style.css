@@ -2,7 +2,7 @@
 
 html {
     padding-top: 25px;
-    background-image: url(images/bg_page.png);
+    background-image: url(../images/bg_page.png);
 }
 
 body {
@@ -28,7 +28,7 @@ h2 {
     font-family: 'Kurale', 'Arial Black', serif;
     border-bottom: 2px white solid;
     font-weight: normal;
-    background: url(images/head-icon.png) no-repeat 10px 10px;
+    background: url(../images/head-icon.png) no-repeat 10px 10px;
     padding: 0 0 2px 60px;
     margin: 0;
 }
