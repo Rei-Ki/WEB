@@ -1,0 +1,139 @@
+
+canvas, caption, center, cite, code, dd, del, dfn, div, dl,
+dt, em, embed, fieldset, font, form, h1, h2, h3, h4, h5, h6,
+hr, i, iframe, img, ins, kbd, label, legend, li, menu, object,
+ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup,
+table, tbody, td, tfoot, th, thead, tr, tt, u, ul, var {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer,
+        header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1.2;
+}
+
+ol {
+    padding-left: 1.4em;
+    list-style: decimal;
+}
+
+ul {
+    padding-left: 1.4em;
+    list-style: square;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*Конец сброса стилей*/
+
+@keyframes logo {
+    from {
+        transform: rotate(0) scale(.5);
+        left: 120%;
+    }
+    50% {
+        transform: rotate(-720deg) scale(.5);
+        left: 0;
+    }
+    to {
+        transform: rotate(0) scale(1);
+    }
+}
+
+body {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+header {
+    background: rgb(255,214,94);
+    background: linear-gradient(to bottom, rgb(100,100,100), rgb(0,0,0));
+    padding-top: 20px;
+}
+
+.container {
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px 0 30px 0;
+    text-align: right;
+    position: relative;
+}
+
+.logo {
+    animation: logo 3s;
+    position: absolute;
+    z-index: 100;
+    left: 0;
+}
+
+header h1 {
+    font-size: 2.2em;
+    margin: 0 0 10px 0;
+    color: rgb(255,255,255);
+}
+
+nav {
+    margin-left: 200px;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #ffffff;
+    padding: 10px 20px;
+    background: #ff932d;
+    border-radius: 5px;
+    border: 1px solid #c95e00;
+    box-shadow: inset 0px 1px 0px rgba(255,255,255,.7);
+    text-shadow:
+        0px -1px 1px rgba(0,0,0,.2),
+        0px 1px 0px rgba(255,255,255,.3);
+}
+
+nav a {
+    -webkit-transition: -webkit-transform .5s,
+    background-color 1s ease-in .5s;
+    transition: transform .5s,
+    background-color 1s ease-in .5s;
+}
+
+nav a:hover {
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

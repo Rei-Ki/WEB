@@ -183,6 +183,65 @@ a[href^="mailto:"] {
     background-color: rgba(255,255,255,.5);
 }
 
+.mainNav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.mainNav li {
+    float: left;
+    width: 12.3em;
+}
+
+.mainNav a {
+    color: #000;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px dashed #999;
+    border-right: none;
+    padding: 7px 5px 7px 30px;
+    display: block;
+    background: #E7E7E7 url(../images/nav.png) no-repeat 0 2px;
+}
+
+.mainNav li {
+    margin-bottom: auto;
+}
+
+.mainNav li:last-of-type a {
+    border-right: 1px dashed #999;
+    margin-right: 10px;
+}
+
+.mainNav a:hover {
+    font-weight: bold;
+    background-color: #B2F511;
+    background-position: 3px 50%;
+}
+
+.movies .movieslink,
+.series .serieslink,
+.books .bookslink,
+.comics .comicslink,
+.games .gameslink,
+.music .musiclink {
+    background-color: #FFFFFF;
+    background-position: 3px 100%;
+    padding-right: 15px;
+    padding-left: 30px;
+    font-weight: bold;
+}
 
 
-/* Завершил на начале 27 странице */
+
+
+
+
+
+
+
+
+
+
